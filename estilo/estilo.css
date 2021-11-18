@@ -15,7 +15,9 @@ body{
     padding: 115px;
     margin: auto;
     background-color: white;
-    border-radius: 2%;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px 60px 60px 60px;
 }
 .form-signin .checkbox{
 font-weight: bold;
@@ -75,8 +77,6 @@ font-weight: bold;
 
   .result{
     padding: 30px;
-    font-size: 2em;
-  }
- .p{
-    font-size: 1.6em;
+    font-size: 1.3em;
+    margin: 5%;
   }
